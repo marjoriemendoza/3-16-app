@@ -1,0 +1,17 @@
+# dependencias
+node_modules/
+# build
+dist/
+# variables de entorno (URLs locales, no secretos)
+.env
+.env.local
+.env.*.local
+# herramientas y credenciales locales
+.tools/
+.secrets/
+# logs
+*.log
+npm-debug.log*
+# sistema
+.DS_Store
+Thumbs.db
